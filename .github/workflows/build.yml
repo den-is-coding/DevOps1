@@ -31,5 +31,5 @@ jobs:
           python -m pip install --upgrade pip
       - name: starting Hello
         run:
-          build: main.py
+          ./main.py
 
